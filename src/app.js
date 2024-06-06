@@ -1,5 +1,10 @@
-const { envs } = require("./config/env.js");
-const { startServer } = require("./server/server");
+// import antiguo
+//const { envs } = require("./config/env.js");
+//const { startServer } = require("./server/server");
+
+// import module
+import { envs } from "./config/env.js";
+import { startServer } from "./server/server.js";
 
 //funcion agnostica autoconvocada
 // agnostica porque no tiene nombre
